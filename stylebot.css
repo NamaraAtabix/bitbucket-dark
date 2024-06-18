@@ -1,0 +1,690 @@
+:root {
+  --ds-background-accent-gray-subtlest: #21262D;
+  --ds-surface: #171B22;
+  --ds-text-subtlest: #7F8893;
+  --ds-border: #363B42;
+  --ds-background-input: #21262D;
+  --ds-background-neutral: #21262D;
+  --ds-border-input: #21262D;
+  --ds-background-accent-green-subtlest: #213227;
+  --ds-background-accent-green-subtler: #20582E;
+  --ds-background-accent-red-subtlest: #342626;
+  --ds-background-accent-red-subtler: #7B302E;
+  --ds-text-accent-blue: #FF7B72;
+  --ds-text-accent-red: #D2A8FF;
+  --ds-text: #E6EDF3;
+  --ds-text-selected: #E6EDF3;
+  --ds-text-accent-orange: #E6EDF3;
+  --ds-text-accent-green: #A5D6FF;
+  --ds-text-accent-purple: #79C0FF;
+  --aui-page-background: #0D1116;
+  --ds-shadow-raised: #292F36;
+  --ds-surface-sunken: #292F36;
+  --ds-surface-raised: #21262D;
+  --ds-link: #3081F7;
+  --ds-text-subtle: #E6EDF3;
+  --logo-color: #E6EDF3;
+  --aui-tabs-tab-text-color: #E6EDF3;
+  --aui-tabs-tab-active-text-color: #3081F7;
+  --aui-tabs-tab-active-border-color: #3081F7;
+  --ds-background-neutral-subtle-hovered: #292F36;
+  --ds-background-success: #223228;
+  --ds-surface-overlay: #363B42;
+  --ds-border-focused: #363B42;
+  --ds-background-input-pressed: #21262D;
+  --ds-background-neutral-hovered: #292F36;
+  --ds-background-selected-hovered: #292F36;
+  --ds-background-selected: #292F36;
+  --ds-icon: #E6EDF3;
+  --ds-text-disabled: #E6EDF3;
+  --aui-table-row-text-color: #E6EDF3;
+  --ds-background-information: #1C2B41;
+  --ds-background-warning: #533F03;
+  --navigation-background: #02040A;
+  --navigation-border: #30363D; 
+  --navigation-selected: #292F36;
+  --ds-background-danger: #7C332E;
+  --ds-text-mediumEmphasis: #7F8893;
+  --aui-dropdown-bg-color: #21262D;
+  --show-more-lines: #204173;
+  --aui-tabs-tab-border-color: #363B42;
+  --ds-background-accent-blue-subtlest: #1C2B41;
+}
+
+/* -------- Syntax -------- */
+.mtk37 {
+  color: #7DE286;
+}
+
+.mtk26 {
+  color: #FF7B72;
+}
+
+.mtk20 {
+  color: #79C0FF;
+}
+
+.mtk16 {
+  color: #A5D6FF;
+}
+
+.mtk1 {
+  color: #E6EDF3;
+}
+
+.mtk12 {
+  color: #79C0FF;
+}
+
+.mtk17 {
+  color: #D2A8FF;
+}
+/* -------- END Syntax -------- */
+
+
+/* -------- The other things -------- */
+a.css-1kdr5b7:hover,
+.css-19y4mey:visited {
+    background-color: var(--aui-page-background);
+}
+
+.css-19uo627,
+.css-z2mb04,
+span.eJTYOk,
+.ibegpx.ibegpx {
+  background-color: var(--ds-background-input);
+  }
+
+p,
+li,
+h2,
+h1,
+h3,
+h4,
+div.css-1olrtn,
+div.css-1h2b0g4,
+div.css-1xaaz5m,
+.css-1e2ir0d,
+td.css-oand9j,
+.css-1s0fs6f,
+.css-1dzmqve,
+a.css-bsghmw,
+.css-99hqz5-singleValue,
+.css-1oioldk-placeholder,
+.css-yxdr1f-placeholder,
+.css-19by3g5-singleValue,
+.css-1elv8vm,
+a.css-hgzq1y,
+a.css-1kdr5b7,
+a.lfs-warn-link,
+td.size,
+.css-ek7kgj,
+.css-17lx5pq:focus,
+.css-cf5i6p,
+.css-1yevz2z,
+.css-j7t33r {
+    color: var(--ds-text);
+}
+
+.css-tb5vup {
+    background-color: var(--ds-text);
+}
+
+small.css-y9voa6 a {
+    color: var(--ds-text-subtlest);
+}
+
+.css-126z9s0 > a > div, .css-126z9s0 > div,
+.css-5srzmu > a > div, .css-5srzmu > div {
+  background-color: var(--ds-surface-raised);
+}
+
+body,
+.css-2rz28m {
+    background-color: var(--aui-page-background);
+}
+
+.css-2rz28m {
+    border: solid 1px --ds-border;
+}
+
+.css-363ehx-option,
+.css-1uxiw2h-option,
+.css-1qplr17-option,
+.css-47w4gl:hover,
+.css-11wjbfv,
+.css-rz73v4-option,
+.css-e9nvq1,
+.css-1atvvg6 {
+    background-color: var(--navigation-selected);
+    color: var(--ds-text);
+}
+
+/* button hovers */
+.css-ijafgl,
+.css-10tbnqu,
+.css-1dyhzfs,
+.css-3nrhgd,
+.css-1luyhz2:hover,
+.css-17v7rf0,
+.css-889cso,
+.css-1rribvk,
+.css-udspjt-control:hover,
+.css-srw9da-control:hover,
+.css-7lqsng-control:hover,
+.css-1ef3y3u-control:hover,
+.css-1ghjpbo-control:hover,
+.css-1ghjpbo-control:hover,
+.css-1xovxc5-control:hover,
+.css-1x98k0p-control:hover,
+.css-1639ovi-control:hover,
+.css-1e3s3jy-control:hover,
+.css-1knvtz9-control:hover,
+.css-1vjfd8x-control:hover,
+.css-138v9ez-control:hover,
+.css-1lbetsc-control:hover,
+.css-agpx99:hover,
+.css-1yk94i7,
+.download-repo,
+.css-1skw5ko:hover,
+.css-1a8g5xb:hover,
+.css-1a8g5xb:hover,
+.css-1lv4td:hover,
+.goEvqh.goEvqh,
+.css-1gbixtc:hover,
+.css-126z9s0:not(:first-of-type)::before,
+.css-5srzmu:not(:last-of-type)::after  {
+    background-color: var(--ds-shadow-raised);
+}
+
+.view-lines,
+.css-17555cc .monaco-editor .margin-view-overlays,
+.lines-content,
+.css-1x0oo74 {
+    background-color: var(--aui-page-background);
+    border-color: var(--ds-border);
+}
+/* -------- END The other things -------- */
+
+
+/* -------- General -------- */
+input[type=search] {
+  background-color: var(--ds-background-input);
+  color: var(--ds-text);
+  border-color: var(--ds-border);
+}
+  
+.site-footer a,
+.span-reading-time,
+.topics-list label {
+  color: var(--ds-text);
+}
+
+.footer-heading,
+.author-card__name,
+.post__link {
+  color: var(--ds-link);
+}
+
+.css-18crily {
+  color: var(--ds-border);
+}
+
+tr:hover {
+    background-color: var(--ds-shadow-raised);
+    box-shadow: none;
+}
+
+.css-8k8uoc {
+    border-bottom: solid 1px --navigation-border;
+}
+
+.hGoBsF:hover,
+.css-u3i0v:hover,
+span.eJTYOk:hover,
+.ibegpx.ibegpx:hover,
+a:hover,
+.css-172x9p6:hover,
+.css-9ca1fb:hover,
+input:hover,
+.cta-wrap {
+    background-color: var(--ds-shadow-raised);
+}
+
+div.css-8ypwyz.efo6slf1,
+.css-1ha3nxa,
+.css-19va4by,
+.css-1xl0a1k,
+header.css-1jmpi03,
+.site-header,
+.site-footer {
+    background-color: var(--aui-page-background);
+}
+
+thead,
+tbody,
+article.css-11mdkte {
+    border-color: var(--navigation-border);
+}
+
+span.css-h103ys span,
+.css-1qqkcoj time,
+.css-1qqkcoj span,
+td.css-2fa4b6 {
+    color: var(--ds-text-subtlest);
+
+}
+/* -------- END general -------- */
+
+/* -------- Create -------- */
+.workflow-box,
+body.adg3 form.aui .textarea,
+.bb-content-container-header,
+.CodeMirror,
+.CodeMirror-gutters,
+section.form-container .buttons-container,
+div.action-buttons {
+  background-color: var(--ds-surface);
+}
+
+.workflow-box,
+.workflow-box>section,
+body.adg3 form.aui .textarea,
+.bb-content-container-header,
+.CodeMirror-gutters,
+.bb-content-container-body {
+  border-color: var(--ds-border);
+}
+
+.css-cj6wzu {
+  background-color: var(--aui-page-background);
+}
+
+body.adg3 form.aui .textarea,
+.CodeMirror,
+.radio label {
+  color: var(--ds-text);
+}
+
+.css-1femwlu.css-1femwlu {
+  background-color: var(--ds-surface);
+  color: var(--ds-text);
+}
+/* -------- END Create -------- */
+
+/* -------- Settings -------- */
+.field-group label,
+.field-group,
+.email-aid--description,
+.aui-message-info,
+.manage-watched-items,
+img#qr {
+  color: var(--ds-text);
+}
+
+.boxed-list--item,
+.boxed-list,
+body.adg3 .page-panel-nav {
+  border-color: var(--ds-border);
+}
+
+.change-username,
+.translate-link,
+.checkbox label,
+aui-badge,
+.summary,
+.content {
+  color: var(--ds-link);
+}
+
+input.text,
+.select2-choice {
+  background-color: var(--ds-background-input);
+  border-color: var(--ds-border-input);
+  color: var(--ds-text);
+}
+
+.actions,
+.email {
+  background-color: var(--ds-surface-sunken);
+}
+
+.form {
+  border-color: var(--ds-border-focused);
+}
+
+td.actions,
+th.actions {
+  background-color: var(--aui-page-background);
+}
+
+.current {
+  background-color: var(--ds-background-input);
+}
+/* -------- END Settings -------- */
+
+
+/* -------- Source -------- */
+.css-1yrqasy {
+  color: var(--ds-text);
+}
+/* -------- END Source -------- */
+
+
+/* -------- Members -------- */
+.user-list>.user {
+  border-color: var(--ds-border);
+  color: var(--ds-text);
+}
+/* -------- END Members -------- */
+
+
+/* -------- Snippets -------- */
+body.adg3 .filter-status>li a {
+  color: var(--ds-text);
+}
+
+.css-1huc67b {
+  background-color: var(--ds-surface-overlay);
+}
+/* -------- END Snippets -------- */
+
+
+/* -------- Downloads -------- */
+body.adg3 .aui-message::after,
+.aui-message p a {
+  color: var(--ds-link);
+}
+
+.css-u3i0v {
+  border: none;
+}
+
+.css-z17u4a > a > div,
+.aui-message {
+  background-color: var(--ds-background-information);
+}
+
+.compare-widget .compare-widget-item {
+  border-color: var(--ds-border);
+}
+
+body.adg3 table.aui>thead>tr>th,
+.aui-nav li a,
+.compare-widget .compare-widget-form .repo-title .repo-owner,
+div.aui-message {
+  color: var(--ds-text);
+}
+/* -------- END Downloads -------- */
+
+
+/* -------- Wiki -------- */
+.wiki-content a,
+#wiki a {
+  color: var(--ds-link);
+}
+
+.wiki-content,
+.markItUpHeader{
+  border-color: var(--ds-border);
+}
+
+.aui-button {
+  background-color: var(--ds-background-input);
+  color: var(--ds-text);
+}
+
+.markItUpEditor,
+div.codehilite pre {
+  color: var(--ds-text);
+}
+
+.markItUpButton {
+  border-color: var(--ds-background-input);
+  background-color: var(--ds-background-input);
+}
+
+.markItUpHeader,
+div.codehilite pre {
+  background-color: var(--ds-background-input);
+}
+
+.buttons-container,
+.wiki-editor,
+.markItUpEditor {
+  background-color: var(--aui-page-background);
+  border-color: var(--ds-border);
+}
+/* -------- END Wiki -------- */
+
+
+/* -------- Deployments -------- */
+.css-1oelu9d {
+  background-color: var(--ds-surface-sunken);
+}
+/* -------- END Deployments -------- */
+
+
+/* -------- Pipelines -------- */
+.css-14filxb-control:hover,
+.css-mo7m6y-control:hover,
+.css-jkokyz-control,
+.css-jkokyz-control:hover,
+.css-1ofrsok-control:hover,
+.css-1ofrsok-control,
+.css-1440mwj {
+  background-color: var(--ds-shadow-raised);
+}
+
+.css-1msqval > a > div,
+.css-1msqval > div,
+.css-1ah7w7c > a > div,
+.css-i3dwes > a > div {
+  background-color: var(--ds-background-input);
+}
+/* -------- END Pipelines -------- */
+
+
+/* -------- Pull requests -------- */
+.css-1s0fs6f,
+.css-1e2ir0d,
+.css-oo1zn3,
+.ipVEmt,
+.hqyPWx,
+.hHbhyl,
+.css-1qhszr8,
+.bb-udiff .heading {
+  background-color: var(--ds-background-input);
+  border-color: var(--ds-border);
+}
+
+.refract-container .addition pre.source {
+  background-color: var(--ds-background-success);
+}
+
+.refract-container .deletion pre.source {
+  background-color: var(--ds-background-accent-red-subtlest);
+}
+
+.commit-files-summary .commit-file-diff-stats .lines-added {
+  background-color: var(--ds-background-accent-green-subtler);
+  color: var(--ds-text);
+}
+
+.commit-files-summary .commit-file-diff-stats .lines-removed {
+  background-color: var(--ds-background-accent-red-subtler);
+  color: var(--ds-text);
+}
+
+.css-1pialsq,
+.css-1x98k0p-control,
+.css-1e3s3jy-control,
+.css-1vjfd8x-control,
+body.adg3 .aui-select2-drop.select2-drop .select2-results .select2-highlighted,
+.akEditor {
+  background-color: var(--ds-shadow-raised);
+  border-color: var(--ds-border);
+}
+
+.refract-container.word-diff:not(.disable-word-diff) .addition pre.source ins {
+  background-color: var(--ds-background-accent-green-subtler);
+}
+
+.refract-container .gutter,
+.refract-container .line-numbers-skipped {
+  background-color: var(--ds-background-accent-gray-subtlest);
+}
+
+.diff-content-container,
+.refract-container .gutter,
+.refract-container .line-numbers-skipped,
+.skipped-container:after,
+.skipped-top::before {
+  border-color: var(--ds-border);
+}
+
+.skipped-container:after,
+.skipped-top::before {
+  background-color: var(--ds-border);
+}
+
+.skipped-container .ellipsis {
+  border-color: var(--show-more-lines);
+  background-color: var(--show-more-lines);
+  color: var(--ds-text);
+}
+
+.skipped-container .ellipsis::before,
+.skipped-container .ellipsis::after {
+  border: none;
+}
+
+.skipped-container .ellipsis {
+  box-shadow: 0 0 0 2px var(--show-more-lines);
+}
+
+.css-1j0fabh,
+.css-8fylpr,
+.css-1bv83m0-placeholder,
+.dwjjao.dwjjao
+.ipVEmt,
+.hqyPWx,
+.css-g85euv,
+.hHbhyl,
+div.field-group div.checkbox label,
+.refract-container .addition pre.source,
+.refract-container .deletion pre.source,
+.css-f2syqh-control:hover {
+  color: var(--ds-text);
+}
+
+.common pre.source,
+.css-1pialsq:hover {
+  background-color: var(--ds-surface);
+  color: var(--ds-text)
+}
+
+body.adg3 table.aui:not(.preserve-links)>tbody>tr>td a,
+body.adg3 form.aui .buttons-container .cancel,
+.commit-files-summary--filename {
+  color: var(--ds-link);
+}
+
+.css-ujhpcq-option:active,
+.dwjjao.dwjjao,
+.css-1j2evhg-control:hover,
+.css-5bpdc8-control,
+.css-i4cjt1-control:hover,
+.css-54k5k3-control:hover {
+  background-color: var(--ds-background-input);
+}
+
+.css-b4cy4q-control:hover,
+.dwjjao.dwjjao:hover,
+.css-7i3wl7,
+.css-dzqc84-control:hover,
+.css-f2syqh-control:hover,
+.css-144s854:hover {
+  background-color: var(--ds-shadow-raised);
+}
+
+.css-88vczp,
+.css-h6l5c0,
+.css-1eirchd {
+  background-color: var(--ds-surface);
+  border-color: var(--navigation-border);
+}
+/* -------- END Pull requests -------- */
+
+
+/* -------- Branches -------- */
+.css-y94prn-control:hover,
+.css-1lg61e6-control:hover,
+.css-6ukvvh-control:hover,
+.css-6ukvvh-control,
+.css-1drq8y5-control:hover,
+.css-1drq8y5-control,
+.css-1272t1j-control,
+.css-46nmf5-control,
+.css-1272t1j-control:hover,
+.css-1272t1j-control,
+.iLKsB,
+.css-95a91x,
+.css-1jf8lvf {
+  background-color: var(--ds-background-input);
+}
+
+.eJTYOk.eJTYOk,
+.ibegpx.ibegpx {
+  color: var(--ds-text);
+}
+
+.css-95a91x,
+.css-95a91x:hover {
+  box-shadow: var(--ds-background-input) -4px 0px 0px 0px, var(--ds-background-input) 4px 0px 0px 0px;
+}
+
+.css-1oj327w {
+    border-bottom: solid --ds-border 1px;
+}
+
+div.css-owi34y::before,
+/* .css-19va4by */
+{
+    background-color: var(--ds-border);
+}
+/* -------- END Branches -------- */
+
+
+/* -------- Navigation -------- */
+#bitbucket-navigation,
+a.css-ienhqj,
+div.css-1hpn4bw::before,
+div.css-1hpn4bw::after,
+div.css-1hpn4bw,
+a.css-1t5na7c,
+div.css-4rxc6l,
+.dUwadF {
+    background-color: var(--navigation-background);
+}
+
+.css-1wgdpuu,
+.css-1afrefi {
+  color: var(--ds-text);
+}
+
+div.css-1sjc3tg,
+div.css-npf74v {
+    background-color: var(--navigation-border);
+}
+
+a.css-t3yiul {
+    background-color: var(--navigation-selected);
+}
+
+header.css-1roldm0,
+.css-lzb6ht {
+    background-color: var(--navigation-background);
+    border-color: var(--navigation-border);
+}
+/* -------- END Navigation -------- */
