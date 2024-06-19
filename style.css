@@ -81,7 +81,6 @@
 }
 /* -------- END Syntax -------- */
 
-
 /* -------- The other things -------- */
 a.css-1kdr5b7:hover,
 .css-19y4mey:visited {
@@ -155,7 +154,8 @@ body,
 .css-11wjbfv,
 .css-rz73v4-option,
 .css-e9nvq1,
-.css-1atvvg6 {
+.css-1atvvg6,
+.EMPgZ:hover {
     background-color: var(--navigation-selected);
     color: var(--ds-text);
 }
