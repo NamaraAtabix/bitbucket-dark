@@ -49,6 +49,7 @@
   --show-more-lines: #204173;
   --aui-tabs-tab-border-color: #363B42;
   --ds-background-accent-blue-subtlest: #1C2B41;
+  --ds-background-accent-gray-subtler: #292F36; 
 }
 
 /* -------- Syntax -------- */
@@ -155,7 +156,10 @@ body,
 .css-rz73v4-option,
 .css-e9nvq1,
 .css-1atvvg6,
-.EMPgZ:hover {
+.gRomhF:hover,
+.EMPgZ:hover,
+.css-1ed2c9m-control:hover,
+.css-53aw5e div[role="row"]:hover {
     background-color: var(--navigation-selected);
     color: var(--ds-text);
 }
