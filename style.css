@@ -14,7 +14,7 @@
   --ds-text-accent-red: #D2A8FF;
   --ds-text: #E6EDF3;
   --ds-text-selected: #E6EDF3;
-  --ds-text-accent-orange: #E6EDF3;
+  --ds-text-accent-orange: #A5D6FF;
   --ds-text-accent-green: #A5D6FF;
   --ds-text-accent-purple: #79C0FF;
   --aui-page-background: #0D1116;
@@ -49,7 +49,9 @@
   --show-more-lines: #204173;
   --aui-tabs-tab-border-color: #363B42;
   --ds-background-accent-blue-subtlest: #1C2B41;
-  --ds-background-accent-gray-subtler: #292F36; 
+  --ds-background-accent-gray-subtler: #292F36;
+  --bb-background-code: ##171B22;
+  --ds-text-accent-blue-bolder: #ffffff;
 }
 
 /* -------- Syntax -------- */
